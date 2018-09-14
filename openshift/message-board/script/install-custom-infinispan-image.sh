@@ -5,6 +5,8 @@
 set -x
 set -e
 
+sh install-custom-infinispan-image.sh
+
 # add developer the ability to push a image
 oc login -u system:admin
 oc adm policy add-role-to-user system:registry developer
@@ -29,3 +31,7 @@ docker push ${IMAGE}
 # it will be used by the install-all script
 rm -fv ./CUSTOM_INFINISPAN_IMAGE
 echo "$IMAGE" >> CUSTOM_INFINISPAN_IMAGE
+
+sh binary-build-account.sh
+sh binary-build-message.sh
+sh binary-build-web.sh
