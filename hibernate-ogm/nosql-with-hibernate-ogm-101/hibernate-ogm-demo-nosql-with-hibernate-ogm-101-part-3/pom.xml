@@ -72,6 +72,7 @@
             <plugin>
                 <groupId>org.wildfly.build</groupId>
                 <artifactId>wildfly-server-provisioning-maven-plugin</artifactId>
+                 <version>1.2.9.Final</version>
                 <executions>
                     <execution>
                         <id>server-provisioning</id>
