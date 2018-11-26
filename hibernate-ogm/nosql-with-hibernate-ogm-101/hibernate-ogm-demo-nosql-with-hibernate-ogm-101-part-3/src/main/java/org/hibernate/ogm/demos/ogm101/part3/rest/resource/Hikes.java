@@ -7,7 +7,6 @@
 package org.hibernate.ogm.demos.ogm101.part3.rest.resource;
 
 import java.util.List;
-import java.util.TimeZone;
 
 import javax.ejb.Stateless;
 import javax.inject.Inject;

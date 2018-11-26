@@ -11,9 +11,8 @@
 
     <deployment>
         <dependencies>
-            <module name="org.hibernate" slot="ogm" services="import" />
-            <module name="org.hibernate.ogm.infinispan" services="import" />
-            <module name="org.hibernate.search.orm" services="import" />
+            <module name="org.hibernate.ogm" slot="5.4" services="import" />
+            <module name="org.hibernate.ogm.mongodb" slot="5.4" services="import" />
         </dependencies>
     </deployment>
 </jboss-deployment-structure>

@@ -13,7 +13,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <ogm.version>4.1.1.Final</ogm.version>
+        <ogm.version>5.4.0.Final</ogm.version>
     </properties>
 
     <dependencyManagement>
@@ -41,11 +41,7 @@
             <groupId>org.hibernate.ogm</groupId>
             <artifactId>hibernate-ogm-mongodb</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.jboss.jbossts</groupId>
-            <artifactId>jbossjta</artifactId>
-        </dependency>
-
+       
         <!-- Testing -->
         <dependency>
             <groupId>junit</groupId>
