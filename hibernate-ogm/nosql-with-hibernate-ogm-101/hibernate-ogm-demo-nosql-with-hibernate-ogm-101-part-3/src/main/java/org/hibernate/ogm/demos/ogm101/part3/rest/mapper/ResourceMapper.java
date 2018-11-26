@@ -22,7 +22,7 @@ import org.mapstruct.ReportingPolicy;
 /**
  * A MapStruct-generated mapper for hikes and persons.
  * <p>
- * Contains the methods fo rthe conversion between {@link PersonDocument} and {@link Person} or {@link Hike} and
+ * Contains the methods for the conversion between {@link PersonDocument} and {@link Person} or {@link Hike} and
  * {@link HikeDocument}. It also contains the methods to update a {@link Person} or {@link Hike} using the values in a
  * {@link PersonDocument} or {@link HikeDocument}.
  *
