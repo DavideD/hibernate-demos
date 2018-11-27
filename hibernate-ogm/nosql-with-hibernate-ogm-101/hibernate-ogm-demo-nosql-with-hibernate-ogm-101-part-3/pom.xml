@@ -20,7 +20,7 @@
         <version.org.hibernate.ogm.family>5.4</version.org.hibernate.ogm.family>
         <version.org.hibernate.ogm>${version.org.hibernate.ogm.family}.0.Final</version.org.hibernate.ogm>
         <version.org.wildfly>13.0.0.Final</version.org.wildfly>
-        <version.org.wildfly.nosql>1.0.0.Beta1</version.org.wildfly.nosql>
+<!--         <version.org.wildfly.nosql>1.0.0.Beta1</version.org.wildfly.nosql> -->
         <version.org.jboss.arquillian>1.2.0.Final</version.org.jboss.arquillian>
         <version.org.wildfly.arquillian>2.1.0.Final</version.org.wildfly.arquillian>
         <version.org.hibernate.search>5.10.4.Final</version.org.hibernate.search>
@@ -66,7 +66,8 @@
                         <failOnMissingWebXml>false</failOnMissingWebXml>
                         <archive>
                             <manifestEntries>
-                                <Dependencies>org.hibernate.ogm:${version.org.hibernate.ogm.family} services, org.hibernate.ogm.mongodb:${version.org.hibernate.ogm.family} services, org.hibernate.search.orm:${version.org.hibernate.search}</Dependencies>
+                                <Dependencies>org.hibernate.ogm:${version.org.hibernate.ogm.family} services, org.hibernate.ogm.mongodb:${version.org.hibernate.ogm.family} services</Dependencies>
+<!--                                 , org.hibernate.search.orm:${version.org.hibernate.search}</Dependencies> -->
                             </manifestEntries>
                         </archive>
                     </configuration>
