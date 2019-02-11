@@ -13,7 +13,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <ogm.version>5.4.0.Final</ogm.version>
+        <ogm.version>5.4.1.Final</ogm.version>
     </properties>
 
     <dependencyManagement>
